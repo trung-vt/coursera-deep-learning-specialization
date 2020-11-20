@@ -1,6 +1,10 @@
 # Course 5: Sequence Models
 ## Week 3 Quiz - Sequence models & Attention mechanism
 
+[View original](https://nbviewer.jupyter.org/github/amanchadha/coursera-deep-learning-specialization/blob/master/C5%20-%20Sequence%20Models/Week%203/Week%203%20Quiz%20-%20Sequence%20models%20%26%20Attention%20mechanisms.pdf)
+
+[View proper format on colab](https://colab.research.google.com/drive/1ftMmAo7Ndqf5r2rWexLS0IzA4Epjt0mU?usp=sharing)
+
 1. Consider using this encoder-decoder model for machine translation.
  ![](https://raw.githubusercontent.com/trung-vt/coursera-deep-learning-specialization/master/C5%20-%20Sequence%20Models/Week%203/Week%203%20-%20Question%201.png)
 
