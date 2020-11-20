@@ -73,6 +73,8 @@
 
 
 9. Under the CTC model, identical repeated characters not separated by the "blank" character ( _ ) are collapsed. Under the CTC model, what does the following string collapse to?
+
+ `__c_oo_o_kk___b_ooooo__oo__kkk`
  - [ ] A. cobok
  - [ ] B. cookbook
  - [x] C. cook book
