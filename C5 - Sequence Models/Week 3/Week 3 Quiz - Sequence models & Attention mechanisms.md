@@ -1,6 +1,10 @@
 ## Week 3 Quiz - Sequence models & Attention mechanism
 
-1. This model is a “conditional language model” in the sense that the encoder portion (shown in green) is modeling the probability of the input sentence x.
+1. Consider using this encoder-decoder model for machine translation.
+
+![](https://bit.ly/3nJk5tO)
+
+This model is a “conditional language model” in the sense that the encoder portion (shown in green) is modeling the probability of the input sentence x.
 	
 	- False
 
