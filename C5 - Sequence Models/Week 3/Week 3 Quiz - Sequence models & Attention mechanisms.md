@@ -29,16 +29,16 @@ Would you expect increasing the beam width B to help correct this example?
 
 ![Attention Model for Machine Translation](https://raw.githubusercontent.com/trung-vt/coursera-deep-learning-specialization/master/C5%20-%20Sequence%20Models/Week%203/Week%203%20-%20Question%206%20-%20Attention%20Model.png)
 	
-Further, here is the formula for $\alpha^{<t,t'>}$.
+Further, here is the formula for $α^{<t,t'>}$.
 
-![Formula for $\alpha^{<t,t'>}$](https://raw.githubusercontent.com/trung-vt/coursera-deep-learning-specialization/master/C5%20-%20Sequence%20Models/Week%203/Week%203%20-%20Question%206%20-%20Formula.png)
+![Formula for $α^{<t,t'>}$](https://raw.githubusercontent.com/trung-vt/coursera-deep-learning-specialization/master/C5%20-%20Sequence%20Models/Week%203/Week%203%20-%20Question%206%20-%20Formula.png)
 
-Which of the following statements about $\alpha^{<t,t'>}$ are true? Check all that apply.
+Which of the following statements about $α^{<t,t'>}$ are true? Check all that apply.
 
-- [x] We expect $\alpha^{<t,t'>}$ to be generally larger for values of $\alpha^{<t'>}$ that are highly relevant to the value the network should output for $y^{<t>}$. (Note the indices in the superscripts.)
-- [ ] We expect $\alpha^{<t,t'>}$ to be generally larger for values of $\alpha^{<t>}$ that are highly relevant to the value the network should output for $y^{<t'>}$. (Note the indices in the superscripts.)
-- [ ] $\sum_{t}\alpha^{<t,t'>} = 1$ (Note the summation is over $t$.)
-- [x] $\sum_{t'}\alpha^{<t,t'>} = 1$ (Note the summation is over $t'$.)
+- [x] We expect $α^{<t,t'>}$ to be generally larger for values of $α^{<t'>}$ that are highly relevant to the value the network should output for $y^{<t>}$. (Note the indices in the superscripts.)
+- [ ] We expect $α^{<t,t'>}$ to be generally larger for values of $α^{<t>}$ that are highly relevant to the value the network should output for $y^{<t'>}$. (Note the indices in the superscripts.)
+- [ ] $∑_{t}α^{<t,t'>} = 1$ (Note the summation is over $t$.)
+- [x] $∑_{t'}α^{<t,t'>} = 1$ (Note the summation is over $t'$.)
 
 7. The network learns where to “pay attention” by learning the values e<t,t′>, which are computed using a small neural network: We can't replace s<t−1> with s<t> as an input to this neural network. This is because s<t> depends on α<t,t′> which in turn depends on e<t,t′>; so at the time we need to evalute this network, we haven’t computed s<t> yet.
 
