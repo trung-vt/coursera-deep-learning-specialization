@@ -25,9 +25,10 @@ Would you expect increasing the beam width B to help correct this example?
 
 	- No, because P(y∗∣x)≤P(y^∣x) indicates the error should be attributed to the RNN rather than to the search algorithm.
 
-5. Continuing the example from Q4, suppose you work on your algorithm for a few more weeks, and now find that for the vast majority of examples on which your algorithm makes a mistake, P(y∗∣x)>P(y^∣x). This suggest you should focus your attention on improving the search algorithm.
+5. Continuing the example from Q4, suppose you work on your algorithm for a few more weeks, and now find that for the vast majority of examples on which your algorithm makes a mistake, $P(y^∗ | x) > P(\hat{y} | x)$. This suggest you should focus your attention on improving the search algorithm.
 	
-	- True
+- [x] True
+- [ ] False
 
 6. Consider the attention model for machine translation.
 
